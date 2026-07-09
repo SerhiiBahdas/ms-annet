@@ -16,8 +16,8 @@ This repository contains the code and data used to generate the manuscript resul
   - `FIGS1.ipynb` with `FIGS1.zip`
   - `FIGS2.ipynb` with `FIGS2.zip`
 - `SIMULATIONS/MAIN_RUN_ME.ipynb` is the full end-to-end notebook for derivations, simulation data generation, model training, inverse-dynamics evaluation, forward-dynamics evaluation, optimizer sweeps, and hardware reporting.
+- `SIMULATIONS/HYPERPARAMETERS_RUN_ME.ipynb` contains the hyperparameter-search workflow.
 - `SIMULATIONS/*.pt`, `SIMULATIONS/*.pth`, `SIMULATIONS/*.csv`, `SIMULATIONS/*.json`, and `SIMULATIONS/*.pkl` are the saved result, timing, model, normalization, training-history, and hyperparameter-search artifacts used by the analyses.
-- `SIMULATIONS/make_figure5.py` and `SIMULATIONS/make_supplementary_figure2_pairwise_rmse.py` provide script-based regeneration checks for selected figures/analyses.
 
 Figure 1 is a schematic/conceptual figure and is provided as rendered PDF/PNG output in `SUBMISSION/FIGURES/PDF AND PNG/`.
 
@@ -73,7 +73,7 @@ Each archive contains the CSV, JSON, and/or NPZ files used by the matching figur
 
 ## Optional full-analysis setup
 
-The full notebook and PyTorch-based scripts require additional packages:
+The full simulation notebooks require additional packages:
 
 ```bash
 cd /path/to/ms-annet
@@ -101,38 +101,16 @@ Reproducibility notes:
 - The notebook uses CUDA when available and otherwise uses CPU.
 - Timing measurements are hardware-dependent and may differ across reviewer machines.
 
-## Optional script-based checks
+## Optional hyperparameter-search rerun
 
-Regenerate Figure 5 from the saved PyTorch tensors in `SIMULATIONS/`:
-
-```bash
-cd /path/to/ms-annet/SIMULATIONS
-python make_figure5.py --rebuild-data --source-dir . --data-package "FIG5 data.zip" --output-prefix "FIG5_from_saved_tensors"
-```
-
-Expected outputs:
-
-- `FIG5 data.zip`
-- `FIG5_from_saved_tensors.svg`
-- `FIG5_from_saved_tensors.pdf`
-- `FIG5_from_saved_tensors.png`
-
-Regenerate the matrix-based Supplementary Figure 2 analysis from saved inverse-dynamics result tensors:
+To rerun the hyperparameter-search workflow:
 
 ```bash
 cd /path/to/ms-annet/SIMULATIONS
-python make_supplementary_figure2_pairwise_rmse.py
+jupyter notebook HYPERPARAMETERS_RUN_ME.ipynb
 ```
 
-Expected outputs are written to `SIMULATIONS/FIGURES/`, including:
-
-- `Fig_S2_pairwise_RMSE_matrix.svg`
-- `Fig_S2_pairwise_RMSE_matrix.pdf`
-- `Fig_S2_pairwise_RMSE_matrix.png`
-- `Fig_S2_RMSE_values.csv`
-- `Fig_S2_pairwise_RMSE_statistics.csv`
-- `Fig_S2_FDR_q_matrix_J1.csv`
-- `Fig_S2_FDR_q_matrix_J2.csv`
+The saved hyperparameter-search outputs used by the figure notebooks are already included in `SIMULATIONS/` and in the packaged figure archives.
 
 ## Submission reminder
 
