@@ -2,7 +2,7 @@
 
 Manuscript: "A shared dynamics representation for prediction- and control-relevant computations"
 
-This repository contains the code and data used to generate the manuscript results. The files should be kept intact for review: do not rename, move, or remove the packaged data archives, saved tensors, model checkpoints, notebooks, or scripts before running the instructions below.
+This repository contains the code and data used to generate the manuscript results. To help ensure the reproduction steps run as intended, reviewers are kindly asked to keep the packaged data archives, saved tensors, model checkpoints, notebooks, and scripts in their current locations before running the instructions below.
 
 ## Repository contents
 
@@ -111,7 +111,3 @@ jupyter notebook HYPERPARAMETERS_RUN_ME.ipynb
 ```
 
 The saved hyperparameter-search outputs used by the figure notebooks are already included in `SIMULATIONS/` and in the packaged figure archives.
-
-## Submission reminder
-
-For journal review, include this repository or a repository archive with the manuscript files, and upload the completed Nature Machine Learning Checklist PDF requested by the editor.
