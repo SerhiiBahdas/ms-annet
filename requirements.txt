@@ -1,0 +1,20 @@
+# Python 3.13.11
+torch==2.11.0
+numpy==2.3.5
+scipy==1.16.3
+statsmodels==0.14.6
+sympy==1.14.0
+pandas==2.3.3
+matplotlib==3.10.8
+seaborn==0.13.2
+psutil==7.0.0
+optuna==4.8.0
+joblib==1.5.3
+# required by the fANOVA importance evaluator of Optuna
+scikit-learn==1.8.0
+# required to build the source-data workbooks
+openpyxl==3.1.5
+# required to run the notebooks
+notebook==7.5.0
+nbconvert==7.16.6
+ipykernel==6.31.0

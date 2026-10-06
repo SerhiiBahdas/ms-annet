@@ -1,0 +1,7 @@
+Featured image for the manuscript "Appellian Neural Networks"
+
+The image shows a simulated double pendulum swinging above the surface from which the Appellian Neural Network (ANNet) computes its motion. ANNet learns the Appell acceleration energy of the pendulum, and this single learned function solves both inverse dynamics, by computing the torques required for a movement, and forward dynamics, by predicting the motion that applied forces produce.
+
+The mesh is the objective that the forward-dynamics solver builds from the learned energy at one instant of a simulation, drawn over the accelerations of the two joints. The disc marks the minimum of this objective, which is the acceleration that the solver returns for that instant. The bright pendulum is the state of the pendulum at the same instant, and the fainter poses and the trails show the preceding 1.04 s of the same simulation. Blue marks the first joint and red marks the second joint, in the pendulum and in the mesh.
+
+The image was drawn from the simulation results and the trained network of the manuscript with the script draw_featured_image.py. The colours, the glow and the fading of the mesh are choices of presentation. The versions with a dark background and with a light background show the same objects.

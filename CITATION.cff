@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite this repository and the article 'Appellian Neural Networks'."
+title: "Code and data for 'Appellian Neural Networks'"
+type: software
+authors:
+  - family-names: Bahdasariants
+    given-names: Serhii
+  - family-names: Parola
+    given-names: Lauren
+  - family-names: Kacker
+    given-names: Kriti
+  - family-names: Feldman
+    given-names: Ariel K.
+  - family-names: Zdobinski
+    given-names: Zachary
+  - family-names: Kang
+    given-names: Inseung
+  - family-names: Weber
+    given-names: Douglas J.
+doi: 10.6084/m9.figshare.34059432
+repository-code: "https://github.com/SerhiiBahdas/ms-annet"
+license: MIT
+keywords:
+  - physics-informed neural networks
+  - forward dynamics
+  - inverse dynamics
+  - Gibbs-Appell equations

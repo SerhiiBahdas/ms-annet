@@ -2,3 +2,23 @@
 **/.DS_Store
 __pycache__/
 *.pyc
+
+# virtual environments and notebook checkpoints
+.venv*/
+.ipynb_checkpoints/
+
+# files that the notebooks regenerate
+SUBMISSION/FIGURES/DATA AND SCRIPTS/executed-*.ipynb
+SUBMISSION/FIGURES/DATA AND SCRIPTS/FIG*.svg
+SUBMISSION/FIGURES/DATA AND SCRIPTS/FIG*.pdf
+SUBMISSION/FIGURES/DATA AND SCRIPTS/FIG*.png
+SIMULATIONS/hyperparameter_figures/
+SIMULATIONS/*.svg
+SIMULATIONS/*.pdf
+SIMULATIONS/*.png
+
+# working material that is not part of the published repository
+NOT FOR SUBMISSION/
+
+# lock files of Microsoft Office
+~$*
