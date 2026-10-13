@@ -31,3 +31,5 @@ VIDEO/data/
 VIDEO/.tts-models/
 VIDEO/voice/
 VIDEO/audio/
+VIDEO/subs/
+VIDEO/logs/
