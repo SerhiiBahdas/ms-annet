@@ -22,3 +22,12 @@ NOT FOR SUBMISSION/
 
 # lock files of Microsoft Office
 ~$*
+
+# video build outputs
+VIDEO/media/
+VIDEO/output/
+VIDEO/__pycache__/
+VIDEO/data/
+VIDEO/.tts-models/
+VIDEO/voice/
+VIDEO/audio/
