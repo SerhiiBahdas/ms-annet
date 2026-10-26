@@ -33,3 +33,19 @@ VIDEO/voice/
 VIDEO/audio/
 VIDEO/subs/
 VIDEO/logs/
+
+# journal correspondence and editable manuscript files (only the PDFs are public)
+SUBMISSION/PAPER/*.docx
+SUBMISSION/PAPER/Permission.pdf
+SUBMISSION/PAPER/Machine Learning Checklist.pdf
+SUBMISSION/SOURCE DATA/Description of Additional Supplementary Files.docx
+
+# trailer build outputs (same policy as the main video)
+VIDEO/trailer/media/
+VIDEO/trailer/output/
+VIDEO/trailer/audio/
+VIDEO/trailer/subs/
+VIDEO/trailer/logs/
+
+# the whole video folder stays local
+VIDEO/
