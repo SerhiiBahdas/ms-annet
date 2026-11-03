@@ -39,6 +39,9 @@ SUBMISSION/PAPER/*.docx
 SUBMISSION/PAPER/Permission.pdf
 SUBMISSION/PAPER/Machine Learning Checklist.pdf
 SUBMISSION/SOURCE DATA/Description of Additional Supplementary Files.docx
+SUBMISSION/PAPER/Rebuttal Letter*.pdf
+SUBMISSION/PAPER/Cover Letter.pdf
+SUBMISSION/FIGURES/FEATURED IMAGE.zip
 
 # trailer build outputs (same policy as the main video)
 VIDEO/trailer/media/
@@ -49,3 +52,6 @@ VIDEO/trailer/logs/
 
 # the whole video folder stays local
 VIDEO/
+
+# the conference poster stays local
+POSTER/
