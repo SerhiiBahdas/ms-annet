@@ -15,16 +15,16 @@ The code is released under the MIT License (see `LICENSE`). `CITATION.cff` gives
 
 ## Explainer videos
 
-Two narrated videos on YouTube explain the paper. The short version presents the central idea in two minutes, and the full version covers the idea, the mathematics behind it and the main results in about 15 minutes.
+Two narrated videos on YouTube explain the paper. The full version covers the central idea, the mathematics behind it and the main results in about 15 minutes, and the short version presents the idea in two minutes.
 
 <table>
   <tr>
-    <td width="50%"><a href="https://youtu.be/uzenrYcuJjY"><img src="https://img.youtube.com/vi/uzenrYcuJjY/maxresdefault.jpg" alt="Thumbnail of the video Appellian Neural Networks in two minutes" width="100%"></a></td>
     <td width="50%"><a href="https://youtu.be/iYsmYFgMxNU"><img src="https://img.youtube.com/vi/iYsmYFgMxNU/maxresdefault.jpg" alt="Thumbnail of the video Appellian Neural Networks" width="100%"></a></td>
+    <td width="50%"><a href="https://youtu.be/uzenrYcuJjY"><img src="https://img.youtube.com/vi/uzenrYcuJjY/maxresdefault.jpg" alt="Thumbnail of the video Appellian Neural Networks in two minutes" width="100%"></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/uzenrYcuJjY"><b>Appellian Neural Networks in two minutes</b></a><br>Short version, 2 minutes</td>
     <td align="center"><a href="https://youtu.be/iYsmYFgMxNU"><b>Appellian Neural Networks</b></a><br>Full explanation, 15 minutes</td>
+    <td align="center"><a href="https://youtu.be/uzenrYcuJjY"><b>Appellian Neural Networks in two minutes</b></a><br>Short version, 2 minutes</td>
   </tr>
 </table>
 
